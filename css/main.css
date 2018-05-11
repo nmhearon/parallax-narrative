@@ -533,10 +533,15 @@ section {
   left: 0;
 }
 
+section {
+  padding: 100vh 0;
+}
+
 .back {
   z-index: -3;
   transform: translateZ(-3px) scale(3);
   background-image: url("../img/hikingtrails.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 40%;
   height: 300px;
@@ -547,8 +552,10 @@ section {
   z-index: -2;
   transform: translateZ(-2px) scale(2);
   background-image: url("../img/rainier");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 40%;
+  height: 300px;
   grid-area: mid;
 }
 
@@ -556,8 +563,10 @@ section {
   z-index: -1;
   transform: translateZ(-1px) scale(1);
   background-image: url("../img/puget.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 40%;
+  height: 300px;
   grid-area: mid2;
 }
 
@@ -565,8 +574,10 @@ section {
   z-index: 0;
   transform: translateZ(0);
   background-image: url("../img/seattle.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 40%;
+  height: 300px;
   grid-area: fore;
 }
 
