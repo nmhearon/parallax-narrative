@@ -1,3 +1,21 @@
 .container{
 	max-width: 960px;
+	margin: 0 auto;
+}
+.site{
+	display: grid;
+	grid-template-areas:
+	"header"
+	"back"
+	"mid"
+	"mid2"
+	"fore"
+	"foot";
+}
+.header{
+	grid-area: head;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
 }
